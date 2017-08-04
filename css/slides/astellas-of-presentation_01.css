@@ -64,13 +64,13 @@ h2 sup{
 	text-align: center;
 	 font-family:'HeliosUltra', sans-serif;
 }
-section.slide1{
+section.slide2{
 	background: url(../../images/astellas-of-presentation_01/girl.jpg) 80px 0px no-repeat;
 	-webkit-background-size: 140px 509px;
 	background-size: 140px 509px;
 	height: 528px;
 }
-.section_in{
+.slide2_in{
 	width: 690px;
 	height: 442px;
 	margin-left: 297px;
@@ -164,7 +164,7 @@ section.slide1{
 	width: 100%;
 	height: 100%;
     position: absolute;
-    bottom: 0px;    
+    bottom: -1px;    
     left: 0;
    /* animation-duration: 2s;*/
 	animation: sm_move 3s;
@@ -180,22 +180,42 @@ section.slide1{
 	height: 0;
 	border-style: solid;
 	border-width: 12px 0 0 22px;
-	border-color: transparent transparent transparent #ffffff;
+	border-color: transparent transparent transparent #fff;
 	z-index: 9;
 }
 .border_small_graph:after{
 	position: absolute;
-	bottom: -147px;
+	bottom: -146px;
 	right: 3px;
 	content:'';
 	width: 0;
 	height: 0;
 	border-style: solid;
 	border-width: 0 0 8px 39px;
-	border-color: transparent transparent #ffffff transparent;
+	border-color: transparent transparent #fff transparent;
 	z-index: 999;
 }
-
+.slide2_in__trachomatis{
+	font-family:'HeliosUltra', sans-serif;
+	position: absolute;
+	top: 85px;
+	right: 32px;
+	width: 130px;
+	height: 190px;
+	color: #231f20;
+}
+.slide2_in__trachomatis img{
+	width: 128px;
+	height: 128px;
+}
+.slide2_in__trachomatis i{
+	display: block;
+	padding: 5px 0 0 24px
+}
+.slide2_in__trachomatis span{
+	display: block;
+	padding: 15px 0 0 27px;
+}
 .wrap_text{
 	position: absolute;
 	bottom: 0px;
@@ -235,23 +255,23 @@ section.slide1{
 	position: relative;
 }
 .note{
-	width: 340px;
+	width: 370px;
 	height: 30px;
 	position: absolute;
-	bottom: -40px;
+	bottom: -80px;
 	left: 34%;
 }
 .note p{
 	color: #231f20;
 	font-size: 7px;
-	line-height: 4px;
-	font-family: 'Dalton';
+	line-height: 7px;
+	font-family:'HeliosUltra', sans-serif;
 	font-style: italic;
 }
 .slide_footer a {
 	width: 96px;
 	height: 30px;
 	position: absolute;
-	right: 0;
-	bottom: 0;
+	right: 18px;
+	bottom: -63px;
 }
