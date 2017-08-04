@@ -1,0 +1,199 @@
+{
+  "sections": [
+    {
+      "name": "Основной раздел",
+      "slides": [
+        {
+          "alias": "name-of-presentation_01",
+          "name": "name-of-presentation_01",
+          "source": "name-of-presentation_01.html",
+          "preview": "previews/name-of-presentation_01.png",
+          "attachments": [
+            {
+              "alias": "pdf1",
+              "name": "Huang_2016",
+              "path": "resources/01.pdf"
+            },
+            {
+              "alias": "pdf2",
+              "name": "Jensen_et_al-2016",
+              "path": "resources/02.pdf"
+            },
+            {
+              "alias": "pdf7",
+              "name": "РОДВК.Урогенитальные заболевания вызванные Ureaplasma M.hominis",
+              "path": "resources/07.pdf"
+            },
+            {
+              "alias": "pdf4",
+              "name": "Инструкция_Вильпрафен",
+              "path": "resources/04.pdf"
+            },
+            {
+              "alias": "pdf5",
+              "name": "Инструкция_Юнидокс",
+              "path": "resources/05.pdf"
+            },
+            {
+              "alias": "pdf6",
+              "name": "РОДВК.Урогенитальные заболевания вызванные M.genitalium",
+              "path": "resources/06.pdf"
+            },
+            {
+              "alias": "pdf3",
+              "name": "Гущин_2009",
+              "path": "resources/03.pdf"
+            },
+            {
+              "alias": "pdf11",
+              "name": "Ушкалова_2006",
+              "path": "resources/11.pdf"
+            },
+            {
+              "alias": "pdf8",
+              "name": "РОДВК.Хламидийная инфекция",
+              "path": "resources/08.pdf"
+            },
+            {
+              "alias": "pdf13",
+              "name": "Юрьев_2009",
+              "path": "resources/13.pdf"
+            }
+
+          ]
+        },
+        {
+          "alias": "name-of-presentation_02",
+          "name": "name-of-presentation_02",
+          "source": "name-of-presentation_02.html",
+          "preview": "previews/name-of-presentation_02.png",
+          "attachments": [
+            {
+              "alias": "pdf1",
+              "name": "Huang_2016",
+              "path": "resources/01.pdf"
+            },
+            {
+              "alias": "pdf2",
+              "name": "Jensen_et_al-2016",
+              "path": "resources/02.pdf"
+            },
+            {
+              "alias": "pdf7",
+              "name": "РОДВК.Урогенитальные заболевания вызванные Ureaplasma M.hominis",
+              "path": "resources/07.pdf"
+            },
+            {
+              "alias": "pdf4",
+              "name": "Инструкция_Вильпрафен",
+              "path": "resources/04.pdf"
+            },
+            {
+              "alias": "pdf5",
+              "name": "Инструкция_Юнидокс",
+              "path": "resources/05.pdf"
+            },
+            {
+              "alias": "pdf6",
+              "name": "РОДВК.Урогенитальные заболевания вызванные M.genitalium",
+              "path": "resources/06.pdf"
+            },
+            {
+              "alias": "pdf3",
+              "name": "Гущин_2009",
+              "path": "resources/03.pdf"
+            },
+            {
+              "alias": "pdf11",
+              "name": "Ушкалова_2006",
+              "path": "resources/11.pdf"
+            },
+            {
+              "alias": "pdf8",
+              "name": "РОДВК.Хламидийная инфекция",
+              "path": "resources/08.pdf"
+            },
+            {
+              "alias": "pdf13",
+              "name": "Юрьев_2009",
+              "path": "resources/13.pdf"
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Вильпрафен - рекомендации",
+      "slides": [
+        {
+          "alias": "name-of-presentation_03",
+          "name": "name-of-presentation_03",
+          "source": "name-of-presentation_03.html",
+          "preview": "previews/name-of-presentation_03.png",
+          "attachments": [
+            {
+              "alias": "pdf1",
+              "name": "Huang_2016",
+              "path": "resources/01.pdf"
+            },
+            {
+              "alias": "pdf2",
+              "name": "Jensen_et_al-2016",
+              "path": "resources/02.pdf"
+            },
+            {
+              "alias": "pdf7",
+              "name": "РОДВК.Урогенитальные заболевания вызванные Ureaplasma M.hominis",
+              "path": "resources/07.pdf"
+            },
+            {
+              "alias": "pdf4",
+              "name": "Инструкция_Вильпрафен",
+              "path": "resources/04.pdf"
+            },
+            {
+              "alias": "pdf5",
+              "name": "Инструкция_Юнидокс",
+              "path": "resources/05.pdf"
+            },
+            {
+              "alias": "pdf6",
+              "name": "РОДВК.Урогенитальные заболевания вызванные M.genitalium",
+              "path": "resources/06.pdf"
+            },
+            {
+              "alias": "pdf3",
+              "name": "Гущин_2009",
+              "path": "resources/03.pdf"
+            },
+            {
+              "alias": "pdf11",
+              "name": "Ушкалова_2006",
+              "path": "resources/11.pdf"
+            },
+            {
+              "alias": "pdf8",
+              "name": "РОДВК.Хламидийная инфекция",
+              "path": "resources/08.pdf"
+            },
+            {
+              "alias": "pdf13",
+              "name": "Юрьев_2009",
+              "path": "resources/13.pdf"
+            }
+
+          ]
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "slideFlip": {
+      "animationSpeed": 0,
+      "gestures": [
+        "swipe"
+      ]
+    }
+  }
+}
