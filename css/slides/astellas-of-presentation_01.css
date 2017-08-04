@@ -1,0 +1,257 @@
+/*********************Reset*********************/
+html, body, div, span, object, iframe, img, strong, b, u, i,table,tbody, tfoot, thead,td,th,tr,nav,
+section, header, footer,article,
+form, label, legend{margin:0; padding:0; border:0; vertical-align:baseline; background:transparent;}
+input:focus, select:focus, textarea:focus {outline:none}
+table,td,th,tr {border-collapse:collapse; border-spacing:0;}
+html, body{width:100%; height:100%;}
+input, textarea {  -webkit-appearance: none;  -webkit-border-radius: 0; overflow: visible;}
+input, select, textarea, button { font-family:arial, sans-serif;}
+input[type="button"]{cursor: pointer}
+
+.clear{clear:both; font-size:0;}
+.clearfix:after {content:"."; display:block; height:0; clear:both; visibility:hidden;}
+html>body .clearfix {display:block;}
+.clearfix {display:inline-block;}
+
+header, footer, article, section, aside, figcaption, figure, hgroup, time {display:block; margin:0; border:0; padding:0;}
+input[type="checkbox"], input[type="radio"] {box-sizing: border-box;padding: 0;}
+body{
+	
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+header{
+	height: 240px;
+	background: url(../../images/astellas-of-presentation_01/header.png) 0 0 no-repeat;
+	-webkit-background-size: 100% 300px;
+	background-size: 100% 240px;
+}
+.wrap_title{
+	width: 700px;
+	height: 200px;
+	padding-top: 99px;
+	margin: 0 0 0 300px;
+}
+h2{
+	position: relative;   
+    font-size: 25px;
+    line-height: 31px;
+    font-family: 'Dalton';
+}
+h2 sup{
+	font-size: 20px;
+}
+.wrap_title h2{
+    color: #00aeef;
+}
+.wrap_title h2:before{
+	content: '';
+	position: absolute;
+	top: 0px;
+	left: -46px;
+	background: url(../../images/astellas-of-presentation_01/logo.png) 0 0 no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	width: 33px;
+	height: 35px;
+}
+.wrap_title p{
+	padding-top: 30px;
+	font-size: 20px;
+	line-height: 22px;
+	font-weight: 600;
+	color: #231f20;
+	text-align: center;
+	 font-family:'HeliosUltra', sans-serif;
+}
+section.slide1{
+	background: url(../../images/astellas-of-presentation_01/girl.jpg) 80px 0px no-repeat;
+	-webkit-background-size: 140px 509px;
+	background-size: 140px 509px;
+	height: 528px;
+}
+.section_in{
+	width: 690px;
+	height: 442px;
+	margin-left: 297px;
+	position: relative;
+	
+}
+.graph_box{
+	width: 555px;
+	height: 343px;
+	background: url(../../images/astellas-of-presentation_01/grafic.png) 34px 48px no-repeat;
+	-webkit-background-size:526px 228px ;
+	background-size: 530px 288px;
+	position: relative;
+	overflow: hidden;
+}
+
+
+.wrap_img{
+	width: 74px;
+	height: 255px;
+	position: absolute;
+	bottom: 0px;
+	left: 30%;
+	display: block;
+}
+.wrap_img .big_pic{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	/*animation-duration: 10s;*/
+	animation: move 4s;
+	animation-timing-function: linear;
+	
+}
+.border, .border_small_graph{
+	position: relative;
+}
+ .border:before{
+	position: absolute;
+	bottom: -255px;
+	left: 7px;
+	content:'';
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 11px 0 0 23px;
+	border-color: transparent transparent transparent #fff;
+}
+.border:after{
+	position: absolute;
+	bottom: -255px;
+	right: 5px;
+	content:'';
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 7px 38px;
+	border-color: transparent transparent #ffffff transparent;
+	
+}
+@keyframes move {
+  from {
+    left: 0;
+    bottom: -225px; 
+  }
+  to { 
+    left: 0; 
+    bottom: 0px;
+  }  
+}
+@keyframes sm_move {
+  from {
+    left: 0;
+    bottom: -115px; 
+  }
+  to { 
+    left: 0; 
+    bottom: 0px;
+  }  
+}
+.graph_box .wrap_img__small{
+	width: 64px;
+    height: 145px;
+    left: 73%;
+    bottom: 0px;
+    position: absolute;
+}
+.wrap_img__small .small_pic{
+	width: 100%;
+	height: 100%;
+    position: absolute;
+    bottom: 0px;    
+    left: 0;
+   /* animation-duration: 2s;*/
+	animation: sm_move 3s;
+	animation-timing-function: linear;
+}
+
+.border_small_graph:before{
+	position: absolute;
+	bottom: -146px;
+	left: 2px;
+	content:'';
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 12px 0 0 22px;
+	border-color: transparent transparent transparent #ffffff;
+	z-index: 9;
+}
+.border_small_graph:after{
+	position: absolute;
+	bottom: -147px;
+	right: 3px;
+	content:'';
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 8px 39px;
+	border-color: transparent transparent #ffffff transparent;
+	z-index: 999;
+}
+
+.wrap_text{
+	position: absolute;
+	bottom: 0px;
+	left: 40px;
+}
+.graph_text{
+	padding-left: 80px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.graph_text span{
+	float: left;
+	display: inline-block;
+	text-align: center;
+}
+.section_in span:first-child{
+	padding-right: 77px;
+}
+.info_box h2{
+	color: #c50f8c;
+	font-size: 23px;
+	position: relative;
+}
+.info_box h2:before{
+	content: " ";
+	position: absolute;
+	top: 3px;
+	left: -39px;
+	width: 32px;
+	height: 32px;
+	background: url(../../images/astellas-of-presentation_01/ic-title.png) 0 0 no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+
+}
+.slide_footer{
+	position: relative;
+}
+.note{
+	width: 340px;
+	height: 30px;
+	position: absolute;
+	bottom: -40px;
+	left: 34%;
+}
+.note p{
+	color: #231f20;
+	font-size: 7px;
+	line-height: 4px;
+	font-family: 'Dalton';
+	font-style: italic;
+}
+.slide_footer a {
+	width: 96px;
+	height: 30px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
